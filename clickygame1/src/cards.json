@@ -1,0 +1,74 @@
+[
+    {
+        "id" : 1,
+        "name" : "The Flash",
+        "image" : "https://i.pinimg.com/originals/c5/cb/b1/c5cbb1630d6b90662d22f32bdc807e19.jpg",
+        "count" : 0
+    },
+    {
+        "id" : 2,
+        "name" : "Superman",
+        "image" : "https://i.pinimg.com/originals/94/2f/8c/942f8c8c31fc1eff953524fe3f8428bf.jpg",
+        "count" : 0
+    },
+    {
+        "id" : 3,
+        "name" : "Batman",
+        "image" : "https://i.pinimg.com/originals/43/c0/1f/43c01f9f7d42bb729cd74a4e020e1b89.jpg",
+        "count" : 0
+    },
+    {
+        "id" : 4,
+        "name" : "Wonder Woman",
+        "image" : "https://experiencethewonder.com/wp-content/uploads/2004/06/2004-WBCP-Justice-League-Unlimited-Animated-Style-Guide-Wonder-Woman-012.jpg",
+        "count" : 0
+    },
+    {
+        "id" : 5,
+        "name" : "Green Lantern",
+        "image" : "https://vignette.wikia.nocookie.net/p__/images/0/06/Greenlantern.png/revision/latest?cb=20100123173408&path-prefix=protagonist",
+        "count" : 0
+    },
+    {
+        "id" : 6,
+        "name" : "Nightwing",
+        "image" : "https://i.pinimg.com/474x/8e/15/3c/8e153ca4771d7a78d67eec38886b5636--batman-the-animated-series-nightwing.jpg",
+        "count" : 0
+    },
+    {
+        "id" : 7,
+        "name" : "Robin",
+        "image" : "https://vignette.wikia.nocookie.net/teentitans/images/9/96/312.png/revision/latest?cb=20180707015810",
+        "count" : 0
+    },
+    {
+        "id" : 8,
+        "name" : "Batgirl",
+        "image" : "https://res.cloudinary.com/teepublic/image/private/s--5lHT-zVz--/t_Preview/b_rgb:36538b,c_limit,f_jpg,h_600,q_90,w_600/v1551401681/production/designs/4309394_0.jpg",
+        "count" : 0
+    },
+    {
+        "id" : 9,
+        "name" : "Joker",
+        "image" : "https://i.etsystatic.com/7692109/r/il/a1b424/636953158/il_570xN.636953158_ef4c.jpg",
+        "count" : 0
+    },
+    {
+        "id" : 10,
+        "name" : "Harley Quinn",
+        "image" : "https://geeksofcolor.files.wordpress.com/2017/11/harley-quinn-in-a-minute_xav7.jpg?w=950",
+        "count" : 0
+    },
+    {
+        "id" : 11,
+        "name" : "Raven",
+        "image" : "https://i.pinimg.com/originals/8d/c3/0c/8dc30cbc2df9246f0eab458f9182212e.jpg",
+        "count" : 0
+    },
+    {
+        "id" : 12,
+        "name" : "Starfire",
+        "image" : "https://static.miraheze.org/loathsomecharacterswiki/thumb/5/5b/Starfir.png/300px-Starfir.png",
+        "count" : 0
+    }
+]
