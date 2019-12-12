@@ -1,0 +1,15 @@
+.header{
+    width:100%;
+    color: white;
+    border-bottom:3px solid black;
+    background: black;
+}
+
+.title {
+    text-align:center;
+    font-size:40px;
+}
+
+.scores {
+    text-align:center;
+}

@@ -1,0 +1,10 @@
+.wrapper {
+    background: url('https://andielollo.files.wordpress.com/2015/04/tower2.png');
+    background-size: cover;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px;
+    justify-content: space-around;
+    overflow: auto;
+    height:100%;
+  }

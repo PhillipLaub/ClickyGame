@@ -1,4 +1,4 @@
-import React from "react";
+import React , { Component }from "react";
 import Card from "./components/Card";
 import Header from "./components/Header";
 import Wrapper from "./components/Wrapper";
@@ -27,6 +27,7 @@ class App extends Component {
     //set card click count back to zero for all cards
     this.state.cards.map(card => {
       card.count = 0;
+      return true
     });
 
     //alert user game over
@@ -38,7 +39,7 @@ class App extends Component {
   };
 
   //method to check if card has been previously clicked
-  clickCounter = id => {
+  clickCount = id => {
     //pass in object and index for access
     this.state.cards.find((obj, index) => {
       if (obj.id === id) {
