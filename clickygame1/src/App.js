@@ -14,6 +14,7 @@ class App extends Component {
 
   //Reset Game, function is triggered when same card is click more than once
   resetGame = () => {
+    
     //check to see if score is greater than highscore
     if (this.state.score > this.state.highscore) {
       //if score is greater, set highscore equal to score
@@ -30,12 +31,24 @@ class App extends Component {
       return true
     });
 
-    //alert user game over
-    alert(`Game Over! \nSCORE: ${this.state.score}/12`);
 
+//check to see if user reached score of 12, if so alert win
+        if (this.state.score > 11) {
+          alert(`You Win! Great Job! \nSCORE: ${this.state.score}/12`);
+          //reset score to zero
+    this.setState({ score: 0 });
+          return true;
+        }
+        else {
+          //alert user game over
+    alert(`Game Over! \nSCORE: ${this.state.score}/12`);
     //reset score to zero
     this.setState({ score: 0 });
     return true;
+        }
+
+    
+
   };
 
   //method to check if card has been previously clicked
@@ -59,12 +72,6 @@ class App extends Component {
           return true;
         }
 
-        //check to see if user reached score of 12, if so alert win, and trigger reset
-        if (this.state.score === 12) {
-          alert(`You Win! Great Job! \nSCORE: ${this.state.score}/12`);
-          this.resetGame();
-        }
-
         //otherwise if click count is not equal to zero(already clicked), reset game
         else {
           this.resetGame();
@@ -79,7 +86,7 @@ class App extends Component {
       <Wrapper>
         {/* Passing properties score and highscore into the Header Component*/}
         <Header score={this.state.score} highscore={this.state.highscore}>
-          ClickyGame
+          TEEN TITANS GO! TO THE CLICKY GAME
         </Header>
         {/* Loop/map through cards json, create 'card' for each, with properties, clickcount, id, key, and image */}
         {this.state.cards.map(card => (

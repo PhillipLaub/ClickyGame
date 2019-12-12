@@ -1,15 +1,38 @@
+@font-face {
+    font-family: 'ttgFont';
+    src: url('../../ttg_by_westralinc-dbnnkt8.ttf');
+  }
+
 .header{
     width:100%;
-    color: white;
-    border-bottom:3px solid black;
-    background: black;
+    color: #1ab1e6;
+    background: #f8008c;
+    padding-bottom:1em;
+    border:4px solid black;
+    background-image: url('https://www.1035bobfm.com/sites/g/files/exi591/f/styles/large_730/public/article-images-featured/blog_1.gif?itok=RELWbYVY');
+    background-position: 0% 30%;
 }
 
 .title {
+    
+    font-family: 'ttgFont' !important;
     text-align:center;
-    font-size:40px;
+    font-size:350%;
+    color: black;
+    text-shadow: 2px 2px 5px deeppink;
+    
 }
 
-.scores {
-    text-align:center;
+.score {
+    float:left;
+    font-size:200%;
+    text-shadow: 4px 4px 3px black;
+    padding-left:5%;
+}
+
+.highscore {
+    float:right;
+    font-size:200%;
+    text-shadow: 4px 4px 3px black;
+    padding-right:5%;
 }

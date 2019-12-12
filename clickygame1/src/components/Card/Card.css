@@ -4,22 +4,20 @@
     margin: 1rem;
     position: relative;
     width: 200px;
-    box-shadow: 0 3px 6px #999, 0 3px 6px black;
+    box-shadow: 0 3px 6px #f7ec00, 0 3px 6px black;
   }
   
   .card > .imageContainer {
     height: 100%;
     overflow: hidden;
-    background:#6CADDC;
+    background:#00acee;
   }
   .card > .imageContainer > img {
-    width: 100%
+    width: 80%;
+    padding-left: 10%;
+    padding-top: 10%;
   }
 
-  /* .imageContainer:hover {
-    transform: scale(1.05);
-  } */
-  
   
   
   
