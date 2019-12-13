@@ -1,8 +1,9 @@
-import React , { Component }from "react";
+import React, { Component } from "react";
 import Card from "./components/Card";
 import Header from "./components/Header";
 import Wrapper from "./components/Wrapper";
 import cards from "./cards.json";
+import swal from 'sweetalert';
 
 class App extends Component {
   //this.state.cards set to access json array
@@ -14,7 +15,6 @@ class App extends Component {
 
   //Reset Game, function is triggered when same card is click more than once
   resetGame = () => {
-    
     //check to see if score is greater than highscore
     if (this.state.score > this.state.highscore) {
       //if score is greater, set highscore equal to score
@@ -28,27 +28,27 @@ class App extends Component {
     //set card click count back to zero for all cards
     this.state.cards.map(card => {
       card.count = 0;
-      return true
+      return true;
     });
 
-
-//check to see if user reached score of 12, if so alert win
-        if (this.state.score > 11) {
-          alert(`You Win! Great Job! \nSCORE: ${this.state.score}/12`);
-          //reset score to zero
-    this.setState({ score: 0 });
-          return true;
-        }
-        else {
-          //alert user game over
-    alert(`Game Over! \nSCORE: ${this.state.score}/12`);
-    //reset score to zero
-    this.setState({ score: 0 });
-    return true;
-        }
-
-    
-
+    //check to see if user reached score of 12, if so alert win
+    if (this.state.score > 11) {
+      // swal(`You Win! Great Job! \nSCORE: ${this.state.score}/12`, "","success");
+      swal('You Win!', `Score: ${this.state.score}/12`, 'success', {
+        button: "Start Over",
+      })
+      //reset score to zero
+      this.setState({ score: 0 });
+      return true;
+    } else {
+      //alert user game over
+      swal('Game Over!', `\nSCORE: ${this.state.score}/12`, "warning", {
+        button: "Start Over",
+      });
+      //reset score to zero
+      this.setState({ score: 0 });
+      return true;
+    }
   };
 
   //method to check if card has been previously clicked
@@ -77,6 +77,8 @@ class App extends Component {
           this.resetGame();
         }
       }
+      //eslint-disable-next-line
+      return;
     });
   };
 
