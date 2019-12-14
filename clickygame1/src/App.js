@@ -65,7 +65,20 @@ class App extends Component {
           this.setState({ score: this.state.score + 1 }, function() {
             //console log updated score value
             console.log(this.state.score);
+
+            if (this.state.score > 11) {
+              // swal(`You Win! Great Job! \nSCORE: ${this.state.score}/12`, "","success");
+              swal('You Win!', `Score: ${this.state.score}/12`, 'success', {
+                button: "Start Over",
+              })
+              //reset score to zero
+              this.setState({ score: 0 });
+              return true;
+            }
+
           });
+
+          
 
           //randomize locations for each card
           this.state.cards.sort(() => Math.random() - 0.5);
