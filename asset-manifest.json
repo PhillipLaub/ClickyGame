@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.62bc68bd.chunk.css",
+    "main.js": "/static/js/main.c2246e06.chunk.js",
+    "main.js.map": "/static/js/main.c2246e06.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3594b5b5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3594b5b5.js.map",
+    "static/js/2.04ee43bb.chunk.js": "/static/js/2.04ee43bb.chunk.js",
+    "static/js/2.04ee43bb.chunk.js.map": "/static/js/2.04ee43bb.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.9ac74756901c0b723e7e54c64578fbd1.js": "/precache-manifest.9ac74756901c0b723e7e54c64578fbd1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.62bc68bd.chunk.css.map": "/static/css/main.62bc68bd.chunk.css.map",
+    "static/js/2.04ee43bb.chunk.js.LICENSE": "/static/js/2.04ee43bb.chunk.js.LICENSE",
+    "static/media/Header.css": "/static/media/ttg_by_westralinc-dbnnkt8.2fda89fb.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3594b5b5.js",
+    "static/js/2.04ee43bb.chunk.js",
+    "static/css/main.62bc68bd.chunk.css",
+    "static/js/main.c2246e06.chunk.js"
+  ]
+}
