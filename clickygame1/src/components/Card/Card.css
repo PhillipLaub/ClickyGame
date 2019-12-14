@@ -4,19 +4,23 @@
     margin: 1rem;
     position: relative;
     width: 185px;
-    box-shadow: 0 3px 6px #f7ec00, 0 3px 6px black;
+    box-shadow: 0 3px 25px deeppink, 0 3px 25px deeppink;
   }
   
   .card > .imageContainer {
     height: 100%;
     overflow: hidden;
-    background:#00acee;
+    /* background:#00acee; */
+    background: url('https://i.pinimg.com/originals/26/12/80/26128039a1d5c1051e2b9a18f9d71121.jpg');
+    background-size: cover;
+    background-position: center;
   }
   .card > .imageContainer > img {
     width: 80%;
     padding-left: 10%;
     padding-top: 10%;
   }
+
 
   
   
