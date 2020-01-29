@@ -1,4 +1,4 @@
-![Screenshot](/ttg_pic - Copy.png)
+
 
 # TEEN TITANS GO! TO THE CLICKY GAME
 
